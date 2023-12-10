@@ -133,6 +133,8 @@ spring:
     basename: i18n/messages
   main:
     allow-bean-definition-overriding: true
+    lazy-initialization: true
+
   mvc:
     problemdetails:
       enabled: true
